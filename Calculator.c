@@ -11,6 +11,7 @@ double divide(double a, double b);
 double power(double base, double exp);
 double squareRoot(double num);
 double factorial(int n);
+double logarithm(double num);
 
 int main() {
     int choice;
@@ -106,6 +107,9 @@ double multiply(double a, double b) { return a * b; }
 double divide(double a, double b) { return a / b; }
 double power(double base, double exp) { return pow(base, exp); }
 double squareRoot(double num) { return sqrt(num); }
+double logarithm(double num) {
+    return log(num);
+}
 double factorial(int n) {
     double fact = 1;
     for (int i = 1; i <= n; i++) {
